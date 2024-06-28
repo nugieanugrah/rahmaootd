@@ -318,7 +318,7 @@ body.dark-theme{
   align-items: center;
   justify-content: space-between;
   color: var(--title-color);
-  padding-left: 0.75rem;
+  padding-right: .75rem;
 }
 .new__link i{
   font-size: 1.25rem;
@@ -333,7 +333,7 @@ body.dark-theme{
   margin-bottom: .5rem;
 }
 .new__subtitle{
-  font-size: var(--medium-font-size);
+  font-size: var(--smaller-font-size);
   color: var(--text-color);
 }
 .new__link:hover i {
@@ -424,6 +424,7 @@ body.dark-theme{
 .swiper-button-next{
   right: calc(50% - 2rem);
 }
+
 
 /*=============== BRANDS ===============*/
 .brand__container {
