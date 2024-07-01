@@ -501,7 +501,7 @@ body.dark-theme{
   background-color: var(--bg-color-light);
 }
 .footer__info{
-  margin-top: 6rem;
+  margin-top: 1.5rem;
   padding-bottom: 6rem;
   display: flex;
   flex-direction: column;
