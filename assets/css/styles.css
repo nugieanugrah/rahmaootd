@@ -548,12 +548,11 @@ body.dark-theme{
   position: fixed;
   right: 1rem;
   bottom: -30%;
-  border-radius: .15rem;
   background-color: var(--container-color);
   box-shadow: 0 8px 12px hsla(220, 18%, 45%, .15);
   display: inline-flex;
   padding: .35rem;
-  color: #25D366;
+  color: var(--title-color);
   font-size: 1.1rem;
   z-index: var(--z-tooltip);
   transition: .3s;
@@ -561,10 +560,6 @@ body.dark-theme{
   -moz-transition: .3s;
   -ms-transition: .3s;
   -o-transition: .3s;
-  -webkit-border-radius: .15rem;
-  -moz-border-radius: .15rem;
-  -ms-border-radius: .15rem;
-  -o-border-radius: .15rem;
 }
 
 .scrollup:hover {
