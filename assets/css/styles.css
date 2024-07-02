@@ -8,9 +8,9 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   /* --bg-color: hsl(220, 18%, 78%); */
-  --bg-color: #f8bbd0;
+  --bg-color: hsl(303, 71%, 35%);
   /* --bg-color-light: hsl(220, 18%, 86%); */
-  --bg-color-light: #fcd5e2;
+  --bg-color-light: hsl(220, 18%, 86%);
   --title-color: hsl(220, 8%, 10%);
   --text-color: hsl(220, 4%, 32%);
   --text-color-light: hsl(220, 4%, 55%);
