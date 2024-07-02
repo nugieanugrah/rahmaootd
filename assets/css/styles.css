@@ -434,6 +434,9 @@ body.dark-theme{
 }
 
 /*=============== CARD PRICING =============*/
+.price {
+  padding: 1.5rem 0;
+}
 .card{
   padding: 3rem 0;
 }
