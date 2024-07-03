@@ -8,9 +8,9 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   /* --bg-color: hsl(220, 18%, 78%); */
-  --bg-color: #CDE8E5;
+  --bg-color: #F1EEDC;
   /* --bg-color-light: hsl(220, 18%, 86%); */
-  --bg-color-light: #EEF7FF;
+  --bg-color-light: #E5DDC5;
   --title-color: hsl(220, 8%, 10%);
   --text-color: hsl(220, 4%, 32%);
   --text-color-light: hsl(220, 4%, 55%);
@@ -356,7 +356,7 @@ body.dark-theme{
 
 /*=============== COLLECTION ===============*/
 .collection{
-  background-color: var(--bg-color-light);
+  background-color: var(--bg-color);
   overflow: hidden;
   transition: .4s; /*For animation dark mode*/
 }
@@ -392,8 +392,19 @@ body.dark-theme{
   align-self: flex-end;
   margin-bottom: 2.5rem;
 }
-
+/*=============== TESTIMONI ==============*/
+.testimoni{
+  /* background-color: var(--bg-color); */
+  overflow: hidden;
+  transition: .4s; /*For animation dark mode*/
+  padding-top: 0;
+}
 /*=============== PRODUCTS ===============*/
+.products{
+  background-color: var(--bg-color-light);
+  overflow: hidden;
+  transition: .4s; /*For animation dark mode*/
+}
 .products__container {
   padding-bottom: 5rem;
 }
@@ -449,21 +460,17 @@ body.dark-theme{
   position: relative;
   /* background-color: var(--container-color); */
   padding: 2rem 1.5rem 2.5rem;
-  border-radius: 1.75rem;
-  -webkit-border-radius: 1.75rem;
-  -moz-border-radius: 1.75rem;
-  -ms-border-radius: 1.75rem;
-  -o-border-radius: 1.75rem;
-  box-shadow: 0 4px 12px hsla(220, 18%, 40%, .15);
+  /* border-radius: 1.75rem; */
+  /* box-shadow: 0 4px 12px hsla(220, 18%, 40%, .15); */
   transition: .4s;
   -webkit-transition: .4s;
   -moz-transition: .4s;
   -ms-transition: .4s;
   -o-transition: .4s;
 }
-.card__content:hover{
+/* .card__content:hover{
   box-shadow: 0 8px 12px hsla(220, 18%, 40%, .15);
-}
+} */
 .card__header-img{
   width: 30px;
   height: 30px;
@@ -658,7 +665,7 @@ body.dark-theme{
 }
 .footer__info{
   margin-top: 1.5rem;
-  padding-bottom: 6rem;
+  padding-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
