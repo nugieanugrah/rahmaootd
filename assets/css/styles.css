@@ -358,6 +358,9 @@ body.dark-theme{
 .description{
   padding: 0;
 }
+.card__description{
+  padding: 0rem 0;
+}
 
 /*=============== COLLECTION ===============*/
 .collection{
@@ -459,7 +462,7 @@ body.dark-theme{
   padding: 3rem 0;
 }
 .card__container{
-  gap: 0rem 1.25rem;
+  gap: 3rem 1.25rem;
 }
 .card__content{
   position: relative;
