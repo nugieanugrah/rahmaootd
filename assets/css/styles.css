@@ -354,6 +354,11 @@ body.dark-theme{
   -o-transform: .25rem;
 }
 
+/*=============== DESCRIPTION ===============*/
+.description{
+  padding: 0;
+}
+
 /*=============== COLLECTION ===============*/
 .collection{
   background-color: var(--bg-color);
@@ -454,7 +459,7 @@ body.dark-theme{
   padding: 3rem 0;
 }
 .card__container{
-  gap: 3rem 1.25rem;
+  gap: 0rem 1.25rem;
 }
 .card__content{
   position: relative;
