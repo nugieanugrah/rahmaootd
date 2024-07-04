@@ -366,6 +366,21 @@ body.dark-theme{
 .card__description{
   padding: 0rem 0;
 }
+.card__header-description-one{
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-25);
+  font-weight: var(--font-regular);
+  text-align: justify;
+}
+.description-span{
+  font-weight: var(--font-semi-bold);
+  color: red;
+}
+.card__header-description-two{
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-25);
+  font-weight: var(--font-regular);
+}
 
 /*=============== COLLECTION ===============*/
 .collection{
