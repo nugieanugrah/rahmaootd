@@ -286,6 +286,11 @@ body.dark-theme{
   margin-left: .5rem;
   position: relative;
 }
+.discount-tagline{
+  font-size: var(--h3-font-size);
+  font-weight: 600;
+  color: red;
+}
 
 /*=============== BUTTON ===============*/
 .button__link{
