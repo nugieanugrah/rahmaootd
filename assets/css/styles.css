@@ -377,7 +377,7 @@ body.dark-theme{
   color: red;
 }
 .card__header-description-two{
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-25);
   font-weight: var(--font-regular);
 }
